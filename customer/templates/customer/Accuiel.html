@@ -1,0 +1,17 @@
+{% extends 'customer/base.html' %}
+{% load static %}
+{% block title %}Accueil{% endblock  %}
+{% block content  %}
+
+<div class="container">
+    <div class="jumbotron" wfd-id="127" mt-3 >
+        <h3 class="display-4">Bienvenue dans notre site e-commerce</h3>
+        <p class="lead"> Vous trouvez les produits en cliquant sur le button au dessous .</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="{% url 'home_page' %}" role="button">Home page</a>
+        </p>
+    </div>
+</div>
+
+
+{% endblock  %}
